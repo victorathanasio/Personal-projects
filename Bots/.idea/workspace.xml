@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bf464d70-6947-4aec-8fc9-d7aeb7dad20c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="05a36c1b-a586-4a32-b6b9-e94bc67a3625">
+    <option name="files">
+      <option value="Hellcase\main.ipynb" />
+      <option value="IC\Desenvolvimento.ipynb" />
+      <option value="InstaBot\marketingdigital.ipynb" />
+    </option>
+  </component>
+  <component name="ProjectId" id="1aUf1hxUqBrsOIlX1Cd10NReJvr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/IC" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\victo\Desktop\Projetos Ativos\Programação\Bots" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\victo\Desktop\Projetos Ativos\Programação\Bots\IC" />
+      <recent name="C:\Users\victo\Desktop\Projetos Ativos\Programação\Bots\google forms" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Bots" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\victo\Venvs\Bots\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InstaBot" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InstaBot/bot_thread.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="bot_thread" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Bots" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\victo\Venvs\Bots\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InstaBot" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InstaBot/bot_thread.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf464d70-6947-4aec-8fc9-d7aeb7dad20c" name="Default Changelist" comment="" />
+      <created>1586794880093</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586794880093</updated>
+      <workItem from="1586794883137" duration="7445000" />
+      <workItem from="1586824007558" duration="1192000" />
+      <workItem from="1588737446156" duration="11357000" />
+      <workItem from="1588749828250" duration="182000" />
+      <workItem from="1588750222652" duration="104000" />
+      <workItem from="1588779446901" duration="2036000" />
+      <workItem from="1588781610611" duration="599000" />
+      <workItem from="1588791654106" duration="3623000" />
+      <workItem from="1588805947839" duration="640000" />
+      <workItem from="1588810961010" duration="3459000" />
+      <workItem from="1588824963613" duration="2349000" />
+      <workItem from="1588876809812" duration="476000" />
+      <workItem from="1588889043553" duration="776000" />
+      <workItem from="1588956479256" duration="4285000" />
+      <workItem from="1588963488946" duration="56000" />
+      <workItem from="1588996348851" duration="3564000" />
+      <workItem from="1589004568432" duration="850000" />
+      <workItem from="1589007260360" duration="13000" />
+      <workItem from="1589008160130" duration="305000" />
+      <workItem from="1589014616879" duration="1941000" />
+      <workItem from="1589036626419" duration="950000" />
+      <workItem from="1589061561431" duration="780000" />
+      <workItem from="1589062373408" duration="18000" />
+      <workItem from="1589077528406" duration="2471000" />
+      <workItem from="1589136194402" duration="1093000" />
+      <workItem from="1589153613325" duration="177000" />
+      <workItem from="1589161215350" duration="48000" />
+      <workItem from="1589379951444" duration="71000" />
+      <workItem from="1589380074775" duration="537000" />
+      <workItem from="1589409942893" duration="13000" />
+      <workItem from="1590096131266" duration="1294000" />
+      <workItem from="1590555409100" duration="8869000" />
+      <workItem from="1590751984981" duration="273000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="294" y="159" width="1092" height="707" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586802943128">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="294" y="159" width="1092" height="707" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1586802943128" />
+    <state x="620" y="267" key="FileChooserDialogImpl" timestamp="1586802928908">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="620" y="267" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1586802928908" />
+    <state width="1559" height="285" key="GridCell.Tab.0.bottom" timestamp="1588958091918">
+      <screen x="78" y="0" width="1602" height="1050" />
+    </state>
+    <state width="1559" height="285" key="GridCell.Tab.0.bottom/-70.-1080.1474.864/78.0.1602.1050@78.0.1602.1050" timestamp="1588795597867" />
+    <state width="1559" height="285" key="GridCell.Tab.0.bottom/78.0.1602.1050@78.0.1602.1050" timestamp="1588958091918" />
+    <state width="1559" height="285" key="GridCell.Tab.0.center" timestamp="1588958091918">
+      <screen x="78" y="0" width="1602" height="1050" />
+    </state>
+    <state width="1559" height="285" key="GridCell.Tab.0.center/-70.-1080.1474.864/78.0.1602.1050@78.0.1602.1050" timestamp="1588795597867" />
+    <state width="1559" height="285" key="GridCell.Tab.0.center/78.0.1602.1050@78.0.1602.1050" timestamp="1588958091918" />
+    <state width="1559" height="285" key="GridCell.Tab.0.left" timestamp="1588958091918">
+      <screen x="78" y="0" width="1602" height="1050" />
+    </state>
+    <state width="1559" height="285" key="GridCell.Tab.0.left/-70.-1080.1474.864/78.0.1602.1050@78.0.1602.1050" timestamp="1588795597867" />
+    <state width="1559" height="285" key="GridCell.Tab.0.left/78.0.1602.1050@78.0.1602.1050" timestamp="1588958091918" />
+    <state width="1559" height="285" key="GridCell.Tab.0.right" timestamp="1588958091918">
+      <screen x="78" y="0" width="1602" height="1050" />
+    </state>
+    <state width="1559" height="285" key="GridCell.Tab.0.right/-70.-1080.1474.864/78.0.1602.1050@78.0.1602.1050" timestamp="1588795597867" />
+    <state width="1559" height="285" key="GridCell.Tab.0.right/78.0.1602.1050@78.0.1602.1050" timestamp="1588958091918" />
+    <state x="341" y="147" key="SettingsEditor" timestamp="1586794968338">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="341" y="147" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1586794968338" />
+    <state x="536" y="328" key="com.intellij.ide.util.TipDialog" timestamp="1586794914311">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="536" y="328" key="com.intellij.ide.util.TipDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1586794914311" />
+    <state x="197" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1588741937184">
+      <screen x="78" y="0" width="1602" height="1050" />
+    </state>
+    <state x="197" y="233" width="672" height="678" key="search.everywhere.popup/78.0.1602.1050@78.0.1602.1050" timestamp="1588741937184" />
+  </component>
+</project>

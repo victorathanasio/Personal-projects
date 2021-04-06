@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/NewABR.iml" filepath="$PROJECT_DIR$/.idea/NewABR.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ABR/Tratamento de Dados/.idea/Tratamento de Dados.iml" filepath="$PROJECT_DIR$/../ABR/Tratamento de Dados/.idea/Tratamento de Dados.iml" />
+    </modules>
+  </component>
+</project>

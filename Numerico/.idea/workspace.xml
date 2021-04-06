@@ -1,0 +1,1233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="895f8596-5d79-43a8-a473-47dab44d2219" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Numerico_poli_2020/EP1/Simu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Numerico_poli_2020/EP1/exemple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Numerico_poli_2020/EP1/functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Numerico_poli_2020/EP1/help.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Numerico_poli_2020/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Numerico_poli_2020/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/.idea/EP1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/.idea/dictionaries/victo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/.idea/other.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Crank-Nicolson/DataFrame_a_Crank-Nicolson.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Crank-Nicolson/analysis/calculations(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Crank-Nicolson/analysis/error(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Crank-Nicolson/analysis/logCalculations(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Crank-Nicolson/analysis/logtime(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Crank-Nicolson/analysis/time(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Crank-Nicolson/final_state/erro,l=10,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Crank-Nicolson/final_state/erro,l=160,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Crank-Nicolson/final_state/erro,l=20,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Crank-Nicolson/final_state/erro,l=320,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Crank-Nicolson/final_state/erro,l=40,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Crank-Nicolson/final_state/erro,l=80,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Crank-Nicolson/final_state/final,l=10,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Crank-Nicolson/final_state/final,l=160,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Crank-Nicolson/final_state/final,l=20,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Crank-Nicolson/final_state/final,l=320,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Crank-Nicolson/final_state/final,l=40,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Crank-Nicolson/final_state/final,l=80,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Crank-Nicolson/heat_maps/l=10,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Crank-Nicolson/heat_maps/l=160,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Crank-Nicolson/heat_maps/l=20,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Crank-Nicolson/heat_maps/l=320,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Crank-Nicolson/heat_maps/l=40,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Crank-Nicolson/heat_maps/l=80,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Crank-Nicolson/hm_erro/hmerro,l=10,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Crank-Nicolson/hm_erro/hmerro,l=160,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Crank-Nicolson/hm_erro/hmerro,l=20,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Crank-Nicolson/hm_erro/hmerro,l=320,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Crank-Nicolson/hm_erro/hmerro,l=40,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Crank-Nicolson/hm_erro/hmerro,l=80,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Crank-Nicolson/temporal_series/ts,l=10,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Crank-Nicolson/temporal_series/ts,l=160,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Crank-Nicolson/temporal_series/ts,l=20,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Crank-Nicolson/temporal_series/ts,l=320,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Crank-Nicolson/temporal_series/ts,l=40,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Crank-Nicolson/temporal_series/ts,l=80,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/DataFrame_a_Euler.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/analysis/calculations(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/analysis/error(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/analysis/error(lamda).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/analysis/log(calculations)(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/analysis/logtime(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/analysis/time(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/final_state/erro,l=0.25,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/final_state/erro,l=0.25,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/final_state/erro,l=0.25,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/final_state/erro,l=0.25,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/final_state/erro,l=0.25,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/final_state/erro,l=0.25,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/final_state/erro,l=0.5,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/final_state/erro,l=0.5,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/final_state/erro,l=0.5,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/final_state/erro,l=0.5,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/final_state/erro,l=0.5,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/final_state/erro,l=0.5,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/final_state/erro,l=0.51,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/final_state/erro,l=0.51,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/final_state/erro,l=0.51,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/final_state/erro,l=0.51,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/final_state/final,l=0.25,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/final_state/final,l=0.25,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/final_state/final,l=0.25,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/final_state/final,l=0.25,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/final_state/final,l=0.25,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/final_state/final,l=0.25,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/final_state/final,l=0.5,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/final_state/final,l=0.5,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/final_state/final,l=0.5,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/final_state/final,l=0.5,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/final_state/final,l=0.5,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/final_state/final,l=0.5,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/final_state/final,l=0.51,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/final_state/final,l=0.51,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/final_state/final,l=0.51,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/final_state/final,l=0.51,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/heat_maps/l=0.25,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/heat_maps/l=0.25,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/heat_maps/l=0.25,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/heat_maps/l=0.25,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/heat_maps/l=0.25,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/heat_maps/l=0.25,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/heat_maps/l=0.5,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/heat_maps/l=0.5,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/heat_maps/l=0.5,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/heat_maps/l=0.5,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/heat_maps/l=0.5,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/heat_maps/l=0.5,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/heat_maps/l=0.51,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/heat_maps/l=0.51,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/heat_maps/l=0.51,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/heat_maps/l=0.51,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/hm_erro/hmerro,l=0.25,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/hm_erro/hmerro,l=0.25,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/hm_erro/hmerro,l=0.25,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/hm_erro/hmerro,l=0.25,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/hm_erro/hmerro,l=0.25,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/hm_erro/hmerro,l=0.25,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/hm_erro/hmerro,l=0.5,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/hm_erro/hmerro,l=0.5,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/hm_erro/hmerro,l=0.5,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/hm_erro/hmerro,l=0.5,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/hm_erro/hmerro,l=0.5,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/hm_erro/hmerro,l=0.5,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/hm_erro/hmerro,l=0.51,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/hm_erro/hmerro,l=0.51,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/hm_erro/hmerro,l=0.51,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/hm_erro/hmerro,l=0.51,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/hm_erro/l=0.25,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/hm_erro/l=0.25,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/hm_erro/l=0.25,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/hm_erro/l=0.25,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/hm_erro/l=0.25,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/hm_erro/l=0.25,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/hm_erro/l=0.5,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/hm_erro/l=0.5,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/hm_erro/l=0.5,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/hm_erro/l=0.5,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/hm_erro/l=0.5,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/hm_erro/l=0.5,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/hm_erro/l=0.51,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/hm_erro/l=0.51,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/hm_erro/l=0.51,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/hm_erro/l=0.51,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/temporal_series/ts,l=0.25,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/temporal_series/ts,l=0.25,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/temporal_series/ts,l=0.25,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/temporal_series/ts,l=0.25,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/temporal_series/ts,l=0.25,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/temporal_series/ts,l=0.25,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/temporal_series/ts,l=0.5,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/temporal_series/ts,l=0.5,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/temporal_series/ts,l=0.5,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/temporal_series/ts,l=0.5,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/temporal_series/ts,l=0.5,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/temporal_series/ts,l=0.5,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/temporal_series/ts,l=0.51,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/temporal_series/ts,l=0.51,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/temporal_series/ts,l=0.51,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Euler/temporal_series/ts,l=0.51,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/DataFrame_a_Implicit euler.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/analysis/calculations(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/analysis/error(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/analysis/logCalculations(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/analysis/logtime(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/analysis/time(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/final_state/erro,l=10,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/final_state/erro,l=160,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/final_state/erro,l=20,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/final_state/erro,l=320,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/final_state/erro,l=40,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/final_state/erro,l=80,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/final_state/final,l=10,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/final_state/final,l=160,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/final_state/final,l=20,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/final_state/final,l=320,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/final_state/final,l=40,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/final_state/final,l=80,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/heat_maps/l=10,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/heat_maps/l=160,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/heat_maps/l=20,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/heat_maps/l=320,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/heat_maps/l=40,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/heat_maps/l=80,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/hm_erro/hmerro,l=10,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/hm_erro/hmerro,l=160,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/hm_erro/hmerro,l=20,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/hm_erro/hmerro,l=320,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/hm_erro/hmerro,l=40,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/hm_erro/hmerro,l=80,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/hm_erro/l=10,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/hm_erro/l=160,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/hm_erro/l=20,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/hm_erro/l=320,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/hm_erro/l=40,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/hm_erro/l=80,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/temporal_series/ts,l=10,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/temporal_series/ts,l=160,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/temporal_series/ts,l=20,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/temporal_series/ts,l=320,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/temporal_series/ts,l=40,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a/Implicit euler/temporal_series/ts,l=80,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Crank-Nicolson/DataFrame_a_old_Crank-Nicolson.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Crank-Nicolson/analysis/Calculations(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Crank-Nicolson/analysis/error(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Crank-Nicolson/analysis/logCalculations(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Crank-Nicolson/analysis/logtime(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Crank-Nicolson/analysis/time(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Crank-Nicolson/final_state/erro,l=10,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Crank-Nicolson/final_state/erro,l=160,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Crank-Nicolson/final_state/erro,l=20,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Crank-Nicolson/final_state/erro,l=320,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Crank-Nicolson/final_state/erro,l=40,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Crank-Nicolson/final_state/erro,l=80,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Crank-Nicolson/final_state/final,l=10,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Crank-Nicolson/final_state/final,l=160,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Crank-Nicolson/final_state/final,l=20,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Crank-Nicolson/final_state/final,l=320,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Crank-Nicolson/final_state/final,l=40,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Crank-Nicolson/final_state/final,l=80,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Crank-Nicolson/heat_maps/l=10,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Crank-Nicolson/heat_maps/l=160,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Crank-Nicolson/heat_maps/l=20,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Crank-Nicolson/heat_maps/l=320,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Crank-Nicolson/heat_maps/l=40,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Crank-Nicolson/heat_maps/l=80,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Crank-Nicolson/hm_erro/hmerro,l=10,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Crank-Nicolson/hm_erro/hmerro,l=160,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Crank-Nicolson/hm_erro/hmerro,l=20,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Crank-Nicolson/hm_erro/hmerro,l=320,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Crank-Nicolson/hm_erro/hmerro,l=40,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Crank-Nicolson/hm_erro/hmerro,l=80,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Crank-Nicolson/temporal_series/ts,l=10,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Crank-Nicolson/temporal_series/ts,l=160,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Crank-Nicolson/temporal_series/ts,l=20,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Crank-Nicolson/temporal_series/ts,l=320,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Crank-Nicolson/temporal_series/ts,l=40,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Crank-Nicolson/temporal_series/ts,l=80,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/DataFrame_a_old_Euler.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/analysis/calculations(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/analysis/error(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/analysis/error(lamda).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/analysis/log(calculations)(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/analysis/logtime(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/analysis/time(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/final_state/erro,l=0.25,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/final_state/erro,l=0.25,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/final_state/erro,l=0.25,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/final_state/erro,l=0.25,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/final_state/erro,l=0.25,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/final_state/erro,l=0.25,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/final_state/erro,l=0.5,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/final_state/erro,l=0.5,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/final_state/erro,l=0.5,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/final_state/erro,l=0.5,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/final_state/erro,l=0.5,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/final_state/erro,l=0.5,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/final_state/erro,l=0.51,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/final_state/erro,l=0.51,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/final_state/erro,l=0.51,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/final_state/erro,l=0.51,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/final_state/final,l=0.25,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/final_state/final,l=0.25,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/final_state/final,l=0.25,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/final_state/final,l=0.25,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/final_state/final,l=0.25,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/final_state/final,l=0.25,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/final_state/final,l=0.5,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/final_state/final,l=0.5,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/final_state/final,l=0.5,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/final_state/final,l=0.5,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/final_state/final,l=0.5,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/final_state/final,l=0.5,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/final_state/final,l=0.51,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/final_state/final,l=0.51,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/final_state/final,l=0.51,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/final_state/final,l=0.51,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/heat_maps/l=0.25,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/heat_maps/l=0.25,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/heat_maps/l=0.25,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/heat_maps/l=0.25,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/heat_maps/l=0.25,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/heat_maps/l=0.25,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/heat_maps/l=0.5,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/heat_maps/l=0.5,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/heat_maps/l=0.5,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/heat_maps/l=0.5,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/heat_maps/l=0.5,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/heat_maps/l=0.5,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/heat_maps/l=0.51,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/heat_maps/l=0.51,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/heat_maps/l=0.51,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/heat_maps/l=0.51,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/hm_erro/hmerro,l=0.25,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/hm_erro/hmerro,l=0.25,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/hm_erro/hmerro,l=0.25,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/hm_erro/hmerro,l=0.25,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/hm_erro/hmerro,l=0.25,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/hm_erro/hmerro,l=0.25,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/hm_erro/hmerro,l=0.5,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/hm_erro/hmerro,l=0.5,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/hm_erro/hmerro,l=0.5,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/hm_erro/hmerro,l=0.5,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/hm_erro/hmerro,l=0.5,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/hm_erro/hmerro,l=0.5,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/hm_erro/hmerro,l=0.51,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/hm_erro/hmerro,l=0.51,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/hm_erro/hmerro,l=0.51,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/hm_erro/hmerro,l=0.51,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/hm_erro/l=0.25,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/hm_erro/l=0.25,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/hm_erro/l=0.25,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/hm_erro/l=0.25,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/hm_erro/l=0.25,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/hm_erro/l=0.25,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/hm_erro/l=0.5,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/hm_erro/l=0.5,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/hm_erro/l=0.5,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/hm_erro/l=0.5,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/hm_erro/l=0.5,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/hm_erro/l=0.5,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/hm_erro/l=0.51,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/hm_erro/l=0.51,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/hm_erro/l=0.51,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/hm_erro/l=0.51,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/temporal_series/ts,l=0.25,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/temporal_series/ts,l=0.25,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/temporal_series/ts,l=0.25,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/temporal_series/ts,l=0.25,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/temporal_series/ts,l=0.25,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/temporal_series/ts,l=0.25,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/temporal_series/ts,l=0.5,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/temporal_series/ts,l=0.5,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/temporal_series/ts,l=0.5,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/temporal_series/ts,l=0.5,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/temporal_series/ts,l=0.5,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/temporal_series/ts,l=0.5,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/temporal_series/ts,l=0.51,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/temporal_series/ts,l=0.51,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/temporal_series/ts,l=0.51,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Euler/temporal_series/ts,l=0.51,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Implicit euler/DataFrame_a_old_Implicit euler.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Implicit euler/analysis/Calculations(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Implicit euler/analysis/error(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Implicit euler/analysis/logCalculations(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Implicit euler/analysis/logtime(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Implicit euler/analysis/time(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Implicit euler/final_state/erro,l=10,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Implicit euler/final_state/erro,l=160,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Implicit euler/final_state/erro,l=20,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Implicit euler/final_state/erro,l=320,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Implicit euler/final_state/erro,l=40,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Implicit euler/final_state/erro,l=80,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Implicit euler/final_state/final,l=10,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Implicit euler/final_state/final,l=160,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Implicit euler/final_state/final,l=20,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Implicit euler/final_state/final,l=320,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Implicit euler/final_state/final,l=40,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Implicit euler/final_state/final,l=80,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Implicit euler/heat_maps/l=10,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Implicit euler/heat_maps/l=160,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Implicit euler/heat_maps/l=20,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Implicit euler/heat_maps/l=320,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Implicit euler/heat_maps/l=40,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Implicit euler/heat_maps/l=80,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Implicit euler/hm_erro/hmerro,l=10,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Implicit euler/hm_erro/hmerro,l=160,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Implicit euler/hm_erro/hmerro,l=20,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Implicit euler/hm_erro/hmerro,l=320,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Implicit euler/hm_erro/hmerro,l=40,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Implicit euler/hm_erro/hmerro,l=80,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Implicit euler/temporal_series/ts,l=10,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Implicit euler/temporal_series/ts,l=160,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Implicit euler/temporal_series/ts,l=20,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Implicit euler/temporal_series/ts,l=320,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Implicit euler/temporal_series/ts,l=40,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/a_old/Implicit euler/temporal_series/ts,l=80,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Crank-Nicolson/DataFrame_b_Crank-Nicolson.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Crank-Nicolson/analysis/calculations(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Crank-Nicolson/analysis/error(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Crank-Nicolson/analysis/logCalculations(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Crank-Nicolson/analysis/logtime(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Crank-Nicolson/analysis/time(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Crank-Nicolson/final_state/erro,l=10,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Crank-Nicolson/final_state/erro,l=160,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Crank-Nicolson/final_state/erro,l=20,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Crank-Nicolson/final_state/erro,l=3,N=3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Crank-Nicolson/final_state/erro,l=320,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Crank-Nicolson/final_state/erro,l=40,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Crank-Nicolson/final_state/erro,l=80,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Crank-Nicolson/final_state/final,l=10,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Crank-Nicolson/final_state/final,l=160,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Crank-Nicolson/final_state/final,l=20,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Crank-Nicolson/final_state/final,l=3,N=3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Crank-Nicolson/final_state/final,l=320,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Crank-Nicolson/final_state/final,l=40,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Crank-Nicolson/final_state/final,l=80,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Crank-Nicolson/heat_maps/l=10,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Crank-Nicolson/heat_maps/l=160,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Crank-Nicolson/heat_maps/l=20,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Crank-Nicolson/heat_maps/l=3,N=3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Crank-Nicolson/heat_maps/l=320,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Crank-Nicolson/heat_maps/l=40,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Crank-Nicolson/heat_maps/l=80,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Crank-Nicolson/hm_erro/hmerro,l=10,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Crank-Nicolson/hm_erro/hmerro,l=160,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Crank-Nicolson/hm_erro/hmerro,l=20,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Crank-Nicolson/hm_erro/hmerro,l=3,N=3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Crank-Nicolson/hm_erro/hmerro,l=320,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Crank-Nicolson/hm_erro/hmerro,l=40,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Crank-Nicolson/hm_erro/hmerro,l=80,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Crank-Nicolson/temporal_series/ts,l=10,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Crank-Nicolson/temporal_series/ts,l=160,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Crank-Nicolson/temporal_series/ts,l=20,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Crank-Nicolson/temporal_series/ts,l=3,N=3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Crank-Nicolson/temporal_series/ts,l=320,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Crank-Nicolson/temporal_series/ts,l=40,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Crank-Nicolson/temporal_series/ts,l=80,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/DataFrame_b_Euler.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/analysis/calculations(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/analysis/error(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/analysis/error(lamda).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/analysis/log(calculations)(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/analysis/logtime(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/analysis/time(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/final_state/erro,l=0.25,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/final_state/erro,l=0.25,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/final_state/erro,l=0.25,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/final_state/erro,l=0.25,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/final_state/erro,l=0.25,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/final_state/erro,l=0.25,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/final_state/erro,l=0.5,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/final_state/erro,l=0.5,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/final_state/erro,l=0.5,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/final_state/erro,l=0.5,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/final_state/erro,l=0.5,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/final_state/erro,l=0.5,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/final_state/erro,l=0.51,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/final_state/erro,l=0.51,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/final_state/erro,l=0.51,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/final_state/erro,l=0.51,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/final_state/final,l=0.25,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/final_state/final,l=0.25,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/final_state/final,l=0.25,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/final_state/final,l=0.25,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/final_state/final,l=0.25,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/final_state/final,l=0.25,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/final_state/final,l=0.5,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/final_state/final,l=0.5,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/final_state/final,l=0.5,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/final_state/final,l=0.5,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/final_state/final,l=0.5,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/final_state/final,l=0.5,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/final_state/final,l=0.51,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/final_state/final,l=0.51,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/final_state/final,l=0.51,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/final_state/final,l=0.51,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/heat_maps/l=0.25,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/heat_maps/l=0.25,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/heat_maps/l=0.25,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/heat_maps/l=0.25,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/heat_maps/l=0.25,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/heat_maps/l=0.25,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/heat_maps/l=0.5,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/heat_maps/l=0.5,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/heat_maps/l=0.5,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/heat_maps/l=0.5,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/heat_maps/l=0.5,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/heat_maps/l=0.5,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/heat_maps/l=0.51,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/heat_maps/l=0.51,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/heat_maps/l=0.51,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/heat_maps/l=0.51,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/hm_erro/hmerro,l=0.25,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/hm_erro/hmerro,l=0.25,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/hm_erro/hmerro,l=0.25,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/hm_erro/hmerro,l=0.25,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/hm_erro/hmerro,l=0.25,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/hm_erro/hmerro,l=0.25,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/hm_erro/hmerro,l=0.5,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/hm_erro/hmerro,l=0.5,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/hm_erro/hmerro,l=0.5,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/hm_erro/hmerro,l=0.5,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/hm_erro/hmerro,l=0.5,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/hm_erro/hmerro,l=0.5,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/hm_erro/hmerro,l=0.51,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/hm_erro/hmerro,l=0.51,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/hm_erro/hmerro,l=0.51,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/hm_erro/hmerro,l=0.51,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/hm_erro/l=0.25,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/hm_erro/l=0.25,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/hm_erro/l=0.25,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/hm_erro/l=0.25,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/hm_erro/l=0.25,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/hm_erro/l=0.25,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/hm_erro/l=0.5,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/hm_erro/l=0.5,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/hm_erro/l=0.5,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/hm_erro/l=0.5,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/hm_erro/l=0.5,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/hm_erro/l=0.5,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/hm_erro/l=0.51,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/hm_erro/l=0.51,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/hm_erro/l=0.51,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/hm_erro/l=0.51,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/temporal_series/ts,l=0.25,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/temporal_series/ts,l=0.25,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/temporal_series/ts,l=0.25,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/temporal_series/ts,l=0.25,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/temporal_series/ts,l=0.25,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/temporal_series/ts,l=0.25,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/temporal_series/ts,l=0.5,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/temporal_series/ts,l=0.5,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/temporal_series/ts,l=0.5,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/temporal_series/ts,l=0.5,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/temporal_series/ts,l=0.5,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/temporal_series/ts,l=0.5,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/temporal_series/ts,l=0.51,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/temporal_series/ts,l=0.51,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/temporal_series/ts,l=0.51,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Euler/temporal_series/ts,l=0.51,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Implicit euler/DataFrame_b_Implicit euler.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Implicit euler/analysis/calculations(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Implicit euler/analysis/error(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Implicit euler/analysis/logCalculations(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Implicit euler/analysis/logtime(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Implicit euler/analysis/time(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Implicit euler/final_state/erro,l=10,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Implicit euler/final_state/erro,l=160,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Implicit euler/final_state/erro,l=20,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Implicit euler/final_state/erro,l=320,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Implicit euler/final_state/erro,l=40,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Implicit euler/final_state/erro,l=80,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Implicit euler/final_state/final,l=10,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Implicit euler/final_state/final,l=160,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Implicit euler/final_state/final,l=20,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Implicit euler/final_state/final,l=320,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Implicit euler/final_state/final,l=40,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Implicit euler/final_state/final,l=80,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Implicit euler/heat_maps/l=10,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Implicit euler/heat_maps/l=160,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Implicit euler/heat_maps/l=20,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Implicit euler/heat_maps/l=320,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Implicit euler/heat_maps/l=40,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Implicit euler/heat_maps/l=80,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Implicit euler/hm_erro/hmerro,l=10,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Implicit euler/hm_erro/hmerro,l=160,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Implicit euler/hm_erro/hmerro,l=20,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Implicit euler/hm_erro/hmerro,l=320,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Implicit euler/hm_erro/hmerro,l=40,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Implicit euler/hm_erro/hmerro,l=80,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Implicit euler/temporal_series/ts,l=10,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Implicit euler/temporal_series/ts,l=160,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Implicit euler/temporal_series/ts,l=20,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Implicit euler/temporal_series/ts,l=320,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Implicit euler/temporal_series/ts,l=40,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/b/Implicit euler/temporal_series/ts,l=80,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Crank-Nicolson/DataFrame_c_Crank-Nicolson.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Crank-Nicolson/analysis/calculations(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Crank-Nicolson/analysis/error(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Crank-Nicolson/analysis/logCalculations(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Crank-Nicolson/analysis/logtime(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Crank-Nicolson/analysis/time(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Crank-Nicolson/final_state/final,l=10,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Crank-Nicolson/final_state/final,l=160,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Crank-Nicolson/final_state/final,l=20,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Crank-Nicolson/final_state/final,l=320,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Crank-Nicolson/final_state/final,l=40,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Crank-Nicolson/final_state/final,l=80,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Crank-Nicolson/heat_maps/l=10,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Crank-Nicolson/heat_maps/l=160,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Crank-Nicolson/heat_maps/l=20,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Crank-Nicolson/heat_maps/l=320,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Crank-Nicolson/heat_maps/l=40,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Crank-Nicolson/heat_maps/l=80,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Crank-Nicolson/temporal_series/ts,l=10,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Crank-Nicolson/temporal_series/ts,l=160,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Crank-Nicolson/temporal_series/ts,l=20,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Crank-Nicolson/temporal_series/ts,l=320,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Crank-Nicolson/temporal_series/ts,l=40,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Crank-Nicolson/temporal_series/ts,l=80,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/DataFrame_c_Euler.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/analysis/calculations(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/analysis/error(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/analysis/error(lamda).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/analysis/log(calculations)(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/analysis/logtime(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/analysis/time(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/final_state/final,l=0.25,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/final_state/final,l=0.25,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/final_state/final,l=0.25,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/final_state/final,l=0.25,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/final_state/final,l=0.25,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/final_state/final,l=0.25,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/final_state/final,l=0.5,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/final_state/final,l=0.5,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/final_state/final,l=0.5,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/final_state/final,l=0.5,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/final_state/final,l=0.5,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/final_state/final,l=0.5,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/final_state/final,l=0.51,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/final_state/final,l=0.51,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/final_state/final,l=0.51,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/final_state/final,l=0.51,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/heat_maps/l=0.25,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/heat_maps/l=0.25,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/heat_maps/l=0.25,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/heat_maps/l=0.25,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/heat_maps/l=0.25,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/heat_maps/l=0.25,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/heat_maps/l=0.5,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/heat_maps/l=0.5,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/heat_maps/l=0.5,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/heat_maps/l=0.5,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/heat_maps/l=0.5,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/heat_maps/l=0.5,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/heat_maps/l=0.51,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/heat_maps/l=0.51,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/heat_maps/l=0.51,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/heat_maps/l=0.51,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/temporal_series/ts,l=0.25,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/temporal_series/ts,l=0.25,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/temporal_series/ts,l=0.25,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/temporal_series/ts,l=0.25,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/temporal_series/ts,l=0.25,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/temporal_series/ts,l=0.25,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/temporal_series/ts,l=0.5,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/temporal_series/ts,l=0.5,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/temporal_series/ts,l=0.5,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/temporal_series/ts,l=0.5,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/temporal_series/ts,l=0.5,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/temporal_series/ts,l=0.5,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/temporal_series/ts,l=0.51,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/temporal_series/ts,l=0.51,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/temporal_series/ts,l=0.51,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Euler/temporal_series/ts,l=0.51,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Implicit euler/DataFrame_c_Implicit euler.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Implicit euler/analysis/calculations(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Implicit euler/analysis/error(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Implicit euler/analysis/logCalculations(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Implicit euler/analysis/logtime(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Implicit euler/analysis/time(N).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Implicit euler/final_state/final,l=10,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Implicit euler/final_state/final,l=160,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Implicit euler/final_state/final,l=20,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Implicit euler/final_state/final,l=320,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Implicit euler/final_state/final,l=40,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Implicit euler/final_state/final,l=80,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Implicit euler/heat_maps/l=10,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Implicit euler/heat_maps/l=160,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Implicit euler/heat_maps/l=20,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Implicit euler/heat_maps/l=320,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Implicit euler/heat_maps/l=40,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Implicit euler/heat_maps/l=80,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Implicit euler/temporal_series/ts,l=10,N=10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Implicit euler/temporal_series/ts,l=160,N=160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Implicit euler/temporal_series/ts,l=20,N=20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Implicit euler/temporal_series/ts,l=320,N=320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Implicit euler/temporal_series/ts,l=40,N=40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/c/Implicit euler/temporal_series/ts,l=80,N=80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Data/pt1_cDataFrame_pt1_c.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Testes.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/Testes2.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/consolidado.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/consolidado.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/consolidado.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/ep.py" beforeDir="false" afterPath="$PROJECT_DIR$/Numerico_poli_2020/EP1/ep.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/iframe_figures/N=10 error.html" beforeDir="false" afterPath="$PROJECT_DIR$/Numerico_poli_2020/EP1/iframe_figures/N=10 error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/iframe_figures/N=10.html" beforeDir="false" afterPath="$PROJECT_DIR$/Numerico_poli_2020/EP1/iframe_figures/N=10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/iframe_figures/N=160 error.html" beforeDir="false" afterPath="$PROJECT_DIR$/Numerico_poli_2020/EP1/iframe_figures/N=160 error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/iframe_figures/N=160.html" beforeDir="false" afterPath="$PROJECT_DIR$/Numerico_poli_2020/EP1/iframe_figures/N=160.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/iframe_figures/N=40 error.html" beforeDir="false" afterPath="$PROJECT_DIR$/Numerico_poli_2020/EP1/iframe_figures/N=40 error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/iframe_figures/N=40.html" beforeDir="false" afterPath="$PROJECT_DIR$/Numerico_poli_2020/EP1/iframe_figures/N=40.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/iframe_figures/N=640 error.html" beforeDir="false" afterPath="$PROJECT_DIR$/Numerico_poli_2020/EP1/iframe_figures/N=640 error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/iframe_figures/N=640.html" beforeDir="false" afterPath="$PROJECT_DIR$/Numerico_poli_2020/EP1/iframe_figures/N=640.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Nosso_ep1/testes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Numerico_poli_2020/EP1/he_solver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Outros/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Outros/.idea/Outros.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Outros/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Outros/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Outros/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Outros/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Outros/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Outros/matias_pt2/parte2solver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/Outros/matias_pt2/teste.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/crankNicolson/erro_final/Erro em T = 1 para N = 10 e λ = 10.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/crankNicolson/erro_final/Erro em T = 1 para N = 160 e λ = 160.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/crankNicolson/erro_final/Erro em T = 1 para N = 20 e λ = 20.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/crankNicolson/erro_final/Erro em T = 1 para N = 320 e λ = 320.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/crankNicolson/erro_final/Erro em T = 1 para N = 40 e λ = 40.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/crankNicolson/erro_final/Erro em T = 1 para N = 80 e λ = 80.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/crankNicolson/mapas_de_calor/Mapa de calor para N = 10 e λ = 10.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/crankNicolson/mapas_de_calor/Mapa de calor para N = 160 e λ = 160.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/crankNicolson/mapas_de_calor/Mapa de calor para N = 20 e λ = 20.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/crankNicolson/mapas_de_calor/Mapa de calor para N = 320 e λ = 320.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/crankNicolson/mapas_de_calor/Mapa de calor para N = 40 e λ = 40.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/crankNicolson/mapas_de_calor/Mapa de calor para N = 80 e λ = 80.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/crankNicolson/series_temporais/Série temporal da barra para N = 10 e λ = 10.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/crankNicolson/series_temporais/Série temporal da barra para N = 160 e λ = 160.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/crankNicolson/series_temporais/Série temporal da barra para N = 20 e λ = 20.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/crankNicolson/series_temporais/Série temporal da barra para N = 320 e λ = 320.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/crankNicolson/series_temporais/Série temporal da barra para N = 40 e λ = 40.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/crankNicolson/series_temporais/Série temporal da barra para N = 80 e λ = 80.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/errors_a.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/erro_final/Erro em T = 1 para N = 10 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/erro_final/Erro em T = 1 para N = 10 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/erro_final/Erro em T = 1 para N = 10 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/erro_final/Erro em T = 1 para N = 160 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/erro_final/Erro em T = 1 para N = 160 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/erro_final/Erro em T = 1 para N = 20 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/erro_final/Erro em T = 1 para N = 20 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/erro_final/Erro em T = 1 para N = 20 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/erro_final/Erro em T = 1 para N = 320 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/erro_final/Erro em T = 1 para N = 320 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/erro_final/Erro em T = 1 para N = 40 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/erro_final/Erro em T = 1 para N = 40 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/erro_final/Erro em T = 1 para N = 40 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/erro_final/Erro em T = 1 para N = 80 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/erro_final/Erro em T = 1 para N = 80 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/erro_final/Erro em T = 1 para N = 80 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/mapas_de_calor/Mapa de calor para N = 10 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/mapas_de_calor/Mapa de calor para N = 10 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/mapas_de_calor/Mapa de calor para N = 10 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/mapas_de_calor/Mapa de calor para N = 160 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/mapas_de_calor/Mapa de calor para N = 160 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/mapas_de_calor/Mapa de calor para N = 20 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/mapas_de_calor/Mapa de calor para N = 20 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/mapas_de_calor/Mapa de calor para N = 20 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/mapas_de_calor/Mapa de calor para N = 320 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/mapas_de_calor/Mapa de calor para N = 320 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/mapas_de_calor/Mapa de calor para N = 40 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/mapas_de_calor/Mapa de calor para N = 40 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/mapas_de_calor/Mapa de calor para N = 40 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/mapas_de_calor/Mapa de calor para N = 80 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/mapas_de_calor/Mapa de calor para N = 80 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/mapas_de_calor/Mapa de calor para N = 80 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/series_temporais/Série temporal da barra para N = 10 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/series_temporais/Série temporal da barra para N = 10 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/series_temporais/Série temporal da barra para N = 10 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/series_temporais/Série temporal da barra para N = 160 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/series_temporais/Série temporal da barra para N = 160 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/series_temporais/Série temporal da barra para N = 20 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/series_temporais/Série temporal da barra para N = 20 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/series_temporais/Série temporal da barra para N = 20 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/series_temporais/Série temporal da barra para N = 320 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/series_temporais/Série temporal da barra para N = 320 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/series_temporais/Série temporal da barra para N = 40 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/series_temporais/Série temporal da barra para N = 40 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/series_temporais/Série temporal da barra para N = 40 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/series_temporais/Série temporal da barra para N = 80 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/series_temporais/Série temporal da barra para N = 80 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/euler/series_temporais/Série temporal da barra para N = 80 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/eulerImplicito/erro_final/Erro em T = 1 para N = 10 e λ = 10.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/eulerImplicito/erro_final/Erro em T = 1 para N = 160 e λ = 160.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/eulerImplicito/erro_final/Erro em T = 1 para N = 20 e λ = 20.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/eulerImplicito/erro_final/Erro em T = 1 para N = 320 e λ = 320.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/eulerImplicito/erro_final/Erro em T = 1 para N = 40 e λ = 40.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/eulerImplicito/erro_final/Erro em T = 1 para N = 80 e λ = 80.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/eulerImplicito/mapas_de_calor/Mapa de calor para N = 10 e λ = 10.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/eulerImplicito/mapas_de_calor/Mapa de calor para N = 160 e λ = 160.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/eulerImplicito/mapas_de_calor/Mapa de calor para N = 20 e λ = 20.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/eulerImplicito/mapas_de_calor/Mapa de calor para N = 320 e λ = 320.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/eulerImplicito/mapas_de_calor/Mapa de calor para N = 40 e λ = 40.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/eulerImplicito/mapas_de_calor/Mapa de calor para N = 80 e λ = 80.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/eulerImplicito/series_temporais/Série temporal da barra para N = 10 e λ = 10.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/eulerImplicito/series_temporais/Série temporal da barra para N = 160 e λ = 160.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/eulerImplicito/series_temporais/Série temporal da barra para N = 20 e λ = 20.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/eulerImplicito/series_temporais/Série temporal da barra para N = 320 e λ = 320.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/eulerImplicito/series_temporais/Série temporal da barra para N = 40 e λ = 40.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/eulerImplicito/series_temporais/Série temporal da barra para N = 80 e λ = 80.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a/times_a.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/crankNicolson/erro_final/Erro em T = 1 para N = 10 e λ = 10.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/crankNicolson/erro_final/Erro em T = 1 para N = 160 e λ = 160.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/crankNicolson/erro_final/Erro em T = 1 para N = 20 e λ = 20.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/crankNicolson/erro_final/Erro em T = 1 para N = 320 e λ = 320.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/crankNicolson/erro_final/Erro em T = 1 para N = 40 e λ = 40.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/crankNicolson/erro_final/Erro em T = 1 para N = 80 e λ = 80.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/crankNicolson/mapas_de_calor/Mapa de calor para N = 10 e λ = 10.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/crankNicolson/mapas_de_calor/Mapa de calor para N = 160 e λ = 160.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/crankNicolson/mapas_de_calor/Mapa de calor para N = 20 e λ = 20.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/crankNicolson/mapas_de_calor/Mapa de calor para N = 320 e λ = 320.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/crankNicolson/mapas_de_calor/Mapa de calor para N = 40 e λ = 40.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/crankNicolson/mapas_de_calor/Mapa de calor para N = 80 e λ = 80.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/crankNicolson/series_temporais/Série temporal da barra para N = 10 e λ = 10.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/crankNicolson/series_temporais/Série temporal da barra para N = 160 e λ = 160.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/crankNicolson/series_temporais/Série temporal da barra para N = 20 e λ = 20.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/crankNicolson/series_temporais/Série temporal da barra para N = 320 e λ = 320.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/crankNicolson/series_temporais/Série temporal da barra para N = 40 e λ = 40.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/crankNicolson/series_temporais/Série temporal da barra para N = 80 e λ = 80.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/errors_a_antigo.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/erro_final/Erro em T = 1 para N = 10 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/erro_final/Erro em T = 1 para N = 10 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/erro_final/Erro em T = 1 para N = 10 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/erro_final/Erro em T = 1 para N = 160 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/erro_final/Erro em T = 1 para N = 160 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/erro_final/Erro em T = 1 para N = 20 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/erro_final/Erro em T = 1 para N = 20 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/erro_final/Erro em T = 1 para N = 20 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/erro_final/Erro em T = 1 para N = 320 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/erro_final/Erro em T = 1 para N = 320 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/erro_final/Erro em T = 1 para N = 40 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/erro_final/Erro em T = 1 para N = 40 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/erro_final/Erro em T = 1 para N = 40 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/erro_final/Erro em T = 1 para N = 80 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/erro_final/Erro em T = 1 para N = 80 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/erro_final/Erro em T = 1 para N = 80 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/mapas_de_calor/Mapa de calor para N = 10 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/mapas_de_calor/Mapa de calor para N = 10 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/mapas_de_calor/Mapa de calor para N = 10 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/mapas_de_calor/Mapa de calor para N = 160 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/mapas_de_calor/Mapa de calor para N = 160 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/mapas_de_calor/Mapa de calor para N = 20 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/mapas_de_calor/Mapa de calor para N = 20 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/mapas_de_calor/Mapa de calor para N = 20 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/mapas_de_calor/Mapa de calor para N = 320 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/mapas_de_calor/Mapa de calor para N = 320 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/mapas_de_calor/Mapa de calor para N = 40 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/mapas_de_calor/Mapa de calor para N = 40 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/mapas_de_calor/Mapa de calor para N = 40 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/mapas_de_calor/Mapa de calor para N = 80 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/mapas_de_calor/Mapa de calor para N = 80 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/mapas_de_calor/Mapa de calor para N = 80 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/series_temporais/Série temporal da barra para N = 10 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/series_temporais/Série temporal da barra para N = 10 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/series_temporais/Série temporal da barra para N = 10 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/series_temporais/Série temporal da barra para N = 160 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/series_temporais/Série temporal da barra para N = 160 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/series_temporais/Série temporal da barra para N = 20 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/series_temporais/Série temporal da barra para N = 20 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/series_temporais/Série temporal da barra para N = 20 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/series_temporais/Série temporal da barra para N = 320 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/series_temporais/Série temporal da barra para N = 320 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/series_temporais/Série temporal da barra para N = 40 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/series_temporais/Série temporal da barra para N = 40 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/series_temporais/Série temporal da barra para N = 40 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/series_temporais/Série temporal da barra para N = 80 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/series_temporais/Série temporal da barra para N = 80 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/euler/series_temporais/Série temporal da barra para N = 80 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/eulerImplicito/erro_final/Erro em T = 1 para N = 10 e λ = 10.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/eulerImplicito/erro_final/Erro em T = 1 para N = 160 e λ = 160.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/eulerImplicito/erro_final/Erro em T = 1 para N = 20 e λ = 20.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/eulerImplicito/erro_final/Erro em T = 1 para N = 320 e λ = 320.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/eulerImplicito/erro_final/Erro em T = 1 para N = 40 e λ = 40.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/eulerImplicito/erro_final/Erro em T = 1 para N = 80 e λ = 80.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/eulerImplicito/mapas_de_calor/Mapa de calor para N = 10 e λ = 10.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/eulerImplicito/mapas_de_calor/Mapa de calor para N = 160 e λ = 160.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/eulerImplicito/mapas_de_calor/Mapa de calor para N = 20 e λ = 20.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/eulerImplicito/mapas_de_calor/Mapa de calor para N = 320 e λ = 320.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/eulerImplicito/mapas_de_calor/Mapa de calor para N = 40 e λ = 40.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/eulerImplicito/mapas_de_calor/Mapa de calor para N = 80 e λ = 80.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/eulerImplicito/series_temporais/Série temporal da barra para N = 10 e λ = 10.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/eulerImplicito/series_temporais/Série temporal da barra para N = 160 e λ = 160.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/eulerImplicito/series_temporais/Série temporal da barra para N = 20 e λ = 20.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/eulerImplicito/series_temporais/Série temporal da barra para N = 320 e λ = 320.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/eulerImplicito/series_temporais/Série temporal da barra para N = 40 e λ = 40.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/eulerImplicito/series_temporais/Série temporal da barra para N = 80 e λ = 80.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/a_antigo/times_a_antigo.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/crankNicolson/erro_final/Erro em T = 1 para N = 10 e λ = 10.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/crankNicolson/erro_final/Erro em T = 1 para N = 160 e λ = 160.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/crankNicolson/erro_final/Erro em T = 1 para N = 20 e λ = 20.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/crankNicolson/erro_final/Erro em T = 1 para N = 320 e λ = 320.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/crankNicolson/erro_final/Erro em T = 1 para N = 40 e λ = 40.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/crankNicolson/erro_final/Erro em T = 1 para N = 80 e λ = 80.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/crankNicolson/mapas_de_calor/Mapa de calor para N = 10 e λ = 10.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/crankNicolson/mapas_de_calor/Mapa de calor para N = 160 e λ = 160.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/crankNicolson/mapas_de_calor/Mapa de calor para N = 20 e λ = 20.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/crankNicolson/mapas_de_calor/Mapa de calor para N = 320 e λ = 320.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/crankNicolson/mapas_de_calor/Mapa de calor para N = 40 e λ = 40.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/crankNicolson/mapas_de_calor/Mapa de calor para N = 80 e λ = 80.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/crankNicolson/series_temporais/Série temporal da barra para N = 10 e λ = 10.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/crankNicolson/series_temporais/Série temporal da barra para N = 160 e λ = 160.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/crankNicolson/series_temporais/Série temporal da barra para N = 20 e λ = 20.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/crankNicolson/series_temporais/Série temporal da barra para N = 320 e λ = 320.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/crankNicolson/series_temporais/Série temporal da barra para N = 40 e λ = 40.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/crankNicolson/series_temporais/Série temporal da barra para N = 80 e λ = 80.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/errors_b.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/erro_final/Erro em T = 1 para N = 10 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/erro_final/Erro em T = 1 para N = 10 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/erro_final/Erro em T = 1 para N = 10 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/erro_final/Erro em T = 1 para N = 160 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/erro_final/Erro em T = 1 para N = 160 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/erro_final/Erro em T = 1 para N = 20 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/erro_final/Erro em T = 1 para N = 20 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/erro_final/Erro em T = 1 para N = 20 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/erro_final/Erro em T = 1 para N = 320 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/erro_final/Erro em T = 1 para N = 320 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/erro_final/Erro em T = 1 para N = 40 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/erro_final/Erro em T = 1 para N = 40 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/erro_final/Erro em T = 1 para N = 40 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/erro_final/Erro em T = 1 para N = 80 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/erro_final/Erro em T = 1 para N = 80 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/erro_final/Erro em T = 1 para N = 80 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/mapas_de_calor/Mapa de calor para N = 10 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/mapas_de_calor/Mapa de calor para N = 10 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/mapas_de_calor/Mapa de calor para N = 10 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/mapas_de_calor/Mapa de calor para N = 160 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/mapas_de_calor/Mapa de calor para N = 160 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/mapas_de_calor/Mapa de calor para N = 20 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/mapas_de_calor/Mapa de calor para N = 20 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/mapas_de_calor/Mapa de calor para N = 20 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/mapas_de_calor/Mapa de calor para N = 320 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/mapas_de_calor/Mapa de calor para N = 320 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/mapas_de_calor/Mapa de calor para N = 40 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/mapas_de_calor/Mapa de calor para N = 40 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/mapas_de_calor/Mapa de calor para N = 40 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/mapas_de_calor/Mapa de calor para N = 80 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/mapas_de_calor/Mapa de calor para N = 80 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/mapas_de_calor/Mapa de calor para N = 80 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/series_temporais/Série temporal da barra para N = 10 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/series_temporais/Série temporal da barra para N = 10 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/series_temporais/Série temporal da barra para N = 10 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/series_temporais/Série temporal da barra para N = 160 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/series_temporais/Série temporal da barra para N = 160 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/series_temporais/Série temporal da barra para N = 20 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/series_temporais/Série temporal da barra para N = 20 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/series_temporais/Série temporal da barra para N = 20 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/series_temporais/Série temporal da barra para N = 320 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/series_temporais/Série temporal da barra para N = 320 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/series_temporais/Série temporal da barra para N = 40 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/series_temporais/Série temporal da barra para N = 40 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/series_temporais/Série temporal da barra para N = 40 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/series_temporais/Série temporal da barra para N = 80 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/series_temporais/Série temporal da barra para N = 80 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/euler/series_temporais/Série temporal da barra para N = 80 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/eulerImplicito/erro_final/Erro em T = 1 para N = 10 e λ = 10.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/eulerImplicito/erro_final/Erro em T = 1 para N = 160 e λ = 160.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/eulerImplicito/erro_final/Erro em T = 1 para N = 20 e λ = 20.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/eulerImplicito/erro_final/Erro em T = 1 para N = 320 e λ = 320.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/eulerImplicito/erro_final/Erro em T = 1 para N = 40 e λ = 40.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/eulerImplicito/erro_final/Erro em T = 1 para N = 80 e λ = 80.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/eulerImplicito/mapas_de_calor/Mapa de calor para N = 10 e λ = 10.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/eulerImplicito/mapas_de_calor/Mapa de calor para N = 160 e λ = 160.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/eulerImplicito/mapas_de_calor/Mapa de calor para N = 20 e λ = 20.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/eulerImplicito/mapas_de_calor/Mapa de calor para N = 320 e λ = 320.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/eulerImplicito/mapas_de_calor/Mapa de calor para N = 40 e λ = 40.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/eulerImplicito/mapas_de_calor/Mapa de calor para N = 80 e λ = 80.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/eulerImplicito/series_temporais/Série temporal da barra para N = 10 e λ = 10.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/eulerImplicito/series_temporais/Série temporal da barra para N = 160 e λ = 160.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/eulerImplicito/series_temporais/Série temporal da barra para N = 20 e λ = 20.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/eulerImplicito/series_temporais/Série temporal da barra para N = 320 e λ = 320.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/eulerImplicito/series_temporais/Série temporal da barra para N = 40 e λ = 40.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/eulerImplicito/series_temporais/Série temporal da barra para N = 80 e λ = 80.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/b/times_b.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/crankNicolson/mapas_de_calor/Mapa de calor para N = 10 e λ = 10.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/crankNicolson/mapas_de_calor/Mapa de calor para N = 160 e λ = 160.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/crankNicolson/mapas_de_calor/Mapa de calor para N = 20 e λ = 20.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/crankNicolson/mapas_de_calor/Mapa de calor para N = 320 e λ = 320.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/crankNicolson/mapas_de_calor/Mapa de calor para N = 40 e λ = 40.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/crankNicolson/mapas_de_calor/Mapa de calor para N = 80 e λ = 80.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/crankNicolson/series_temporais/Série temporal da barra para N = 10 e λ = 10.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/crankNicolson/series_temporais/Série temporal da barra para N = 160 e λ = 160.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/crankNicolson/series_temporais/Série temporal da barra para N = 20 e λ = 20.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/crankNicolson/series_temporais/Série temporal da barra para N = 320 e λ = 320.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/crankNicolson/series_temporais/Série temporal da barra para N = 40 e λ = 40.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/crankNicolson/series_temporais/Série temporal da barra para N = 80 e λ = 80.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/errors_c.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/euler/mapas_de_calor/Mapa de calor para N = 10 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/euler/mapas_de_calor/Mapa de calor para N = 10 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/euler/mapas_de_calor/Mapa de calor para N = 10 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/euler/mapas_de_calor/Mapa de calor para N = 160 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/euler/mapas_de_calor/Mapa de calor para N = 160 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/euler/mapas_de_calor/Mapa de calor para N = 20 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/euler/mapas_de_calor/Mapa de calor para N = 20 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/euler/mapas_de_calor/Mapa de calor para N = 20 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/euler/mapas_de_calor/Mapa de calor para N = 320 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/euler/mapas_de_calor/Mapa de calor para N = 320 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/euler/mapas_de_calor/Mapa de calor para N = 40 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/euler/mapas_de_calor/Mapa de calor para N = 40 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/euler/mapas_de_calor/Mapa de calor para N = 40 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/euler/mapas_de_calor/Mapa de calor para N = 80 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/euler/mapas_de_calor/Mapa de calor para N = 80 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/euler/mapas_de_calor/Mapa de calor para N = 80 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/euler/series_temporais/Série temporal da barra para N = 10 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/euler/series_temporais/Série temporal da barra para N = 10 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/euler/series_temporais/Série temporal da barra para N = 10 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/euler/series_temporais/Série temporal da barra para N = 160 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/euler/series_temporais/Série temporal da barra para N = 160 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/euler/series_temporais/Série temporal da barra para N = 20 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/euler/series_temporais/Série temporal da barra para N = 20 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/euler/series_temporais/Série temporal da barra para N = 20 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/euler/series_temporais/Série temporal da barra para N = 320 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/euler/series_temporais/Série temporal da barra para N = 320 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/euler/series_temporais/Série temporal da barra para N = 40 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/euler/series_temporais/Série temporal da barra para N = 40 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/euler/series_temporais/Série temporal da barra para N = 40 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/euler/series_temporais/Série temporal da barra para N = 80 e λ = 0.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/euler/series_temporais/Série temporal da barra para N = 80 e λ = 0.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/euler/series_temporais/Série temporal da barra para N = 80 e λ = 0.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/eulerImplicito/mapas_de_calor/Mapa de calor para N = 10 e λ = 10.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/eulerImplicito/mapas_de_calor/Mapa de calor para N = 160 e λ = 160.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/eulerImplicito/mapas_de_calor/Mapa de calor para N = 20 e λ = 20.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/eulerImplicito/mapas_de_calor/Mapa de calor para N = 320 e λ = 320.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/eulerImplicito/mapas_de_calor/Mapa de calor para N = 40 e λ = 40.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/eulerImplicito/mapas_de_calor/Mapa de calor para N = 80 e λ = 80.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/eulerImplicito/series_temporais/Série temporal da barra para N = 10 e λ = 10.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/eulerImplicito/series_temporais/Série temporal da barra para N = 160 e λ = 160.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/eulerImplicito/series_temporais/Série temporal da barra para N = 20 e λ = 20.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/eulerImplicito/series_temporais/Série temporal da barra para N = 320 e λ = 320.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/eulerImplicito/series_temporais/Série temporal da barra para N = 40 e λ = 40.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/eulerImplicito/series_temporais/Série temporal da barra para N = 80 e λ = 80.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/Dados/c/times_c.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExercicioPrograma1/ep.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="Setup Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="05a36c1b-a586-4a32-b6b9-e94bc67a3625" />
+  <component name="ProjectId" id="1bs9i0oLh4vGfu5051WgFOCHkOM" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Ini" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\victo" />
+      <recent name="C:\Users\victo\Desktop\Projetos Ativos\Poli\5semestre\Numerico\Numerico_poli_2020" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\victo\Desktop\Projetos Ativos\Poli\5semestre\Numerico\Numerico_poli_2020" />
+      <recent name="C:\Users\victo\Desktop\Projetos Ativos\Poli\5semestre\Numerico\Numerico_poli_2020\EP1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.help (1)">
+    <configuration name="ep (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Numerico" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Entrega_ep/EP1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Entrega_ep/EP1/ep.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ep (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Numerico" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Numerico_poli_2020/EP1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Numerico_poli_2020/EP1/ep.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="exemple (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Numerico" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Entrega_ep/EP1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Entrega_ep/EP1/exemple.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="help (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Numerico" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Numerico_poli_2020/EP1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Numerico_poli_2020/EP1/help.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="help" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Numerico" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Entrega_ep/EP1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Entrega_ep/EP1/help.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.help (1)" />
+        <item itemvalue="Python.ep (2)" />
+        <item itemvalue="Python.help" />
+        <item itemvalue="Python.exemple (1)" />
+        <item itemvalue="Python.ep (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="895f8596-5d79-43a8-a473-47dab44d2219" name="Default Changelist" comment="" />
+      <created>1589410057509</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589410057509</updated>
+      <workItem from="1589410058648" duration="1639000" />
+      <workItem from="1589487238542" duration="70000" />
+      <workItem from="1590044246808" duration="2875000" />
+      <workItem from="1590093397652" duration="102000" />
+      <workItem from="1590181723580" duration="6867000" />
+      <workItem from="1590197308253" duration="303000" />
+      <workItem from="1615231260331" duration="486000" />
+      <workItem from="1615232059794" duration="96000" />
+      <workItem from="1615242525124" duration="60000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="658" y="266" key="FileChooserDialogImpl" timestamp="1590188681638">
+      <screen x="78" y="0" width="1602" height="1050" />
+    </state>
+    <state x="658" y="266" key="FileChooserDialogImpl/78.0.1602.1050@78.0.1602.1050" timestamp="1590188681638" />
+    <state width="1559" height="285" key="GridCell.Tab.0.bottom" timestamp="1590188734490">
+      <screen x="78" y="0" width="1602" height="1050" />
+    </state>
+    <state width="1559" height="285" key="GridCell.Tab.0.bottom/78.0.1602.1050@78.0.1602.1050" timestamp="1590188734490" />
+    <state width="1559" height="285" key="GridCell.Tab.0.center" timestamp="1590188734490">
+      <screen x="78" y="0" width="1602" height="1050" />
+    </state>
+    <state width="1559" height="285" key="GridCell.Tab.0.center/78.0.1602.1050@78.0.1602.1050" timestamp="1590188734490" />
+    <state width="1559" height="285" key="GridCell.Tab.0.left" timestamp="1590188734490">
+      <screen x="78" y="0" width="1602" height="1050" />
+    </state>
+    <state width="1559" height="285" key="GridCell.Tab.0.left/78.0.1602.1050@78.0.1602.1050" timestamp="1590188734490" />
+    <state width="1559" height="285" key="GridCell.Tab.0.right" timestamp="1590188734490">
+      <screen x="78" y="0" width="1602" height="1050" />
+    </state>
+    <state width="1559" height="285" key="GridCell.Tab.0.right/78.0.1602.1050@78.0.1602.1050" timestamp="1590188734490" />
+    <state x="380" y="169" key="SettingsEditor" timestamp="1590187132646">
+      <screen x="78" y="0" width="1602" height="1050" />
+    </state>
+    <state x="380" y="169" key="SettingsEditor/78.0.1602.1050@78.0.1602.1050" timestamp="1590187132646" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Numerico$exemple.coverage" NAME="exemple Coverage Results" MODIFIED="1590184485306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EP1/Nosso_ep1" />
+    <SUITE FILE_PATH="coverage/Numerico$exemple__1_.coverage" NAME="exemple (1) Coverage Results" MODIFIED="1590185535404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Entrega_ep/EP1" />
+    <SUITE FILE_PATH="coverage/Numerico$help.coverage" NAME="help Coverage Results" MODIFIED="1590185554085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Entrega_ep/EP1" />
+    <SUITE FILE_PATH="coverage/Numerico$ep__1_.coverage" NAME="ep (1) Coverage Results" MODIFIED="1590184922652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Entrega_ep/EP1" />
+    <SUITE FILE_PATH="coverage/Numerico$ep.coverage" NAME="ep Coverage Results" MODIFIED="1590183219216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EP1/Nosso_ep1" />
+    <SUITE FILE_PATH="coverage/Numerico$help__1_.coverage" NAME="help (1) Coverage Results" MODIFIED="1590188174897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Numerico_poli_2020/EP1" />
+    <SUITE FILE_PATH="coverage/Numerico$ep__2_.coverage" NAME="ep (2) Coverage Results" MODIFIED="1590188002556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Numerico_poli_2020/EP1" />
+  </component>
+</project>

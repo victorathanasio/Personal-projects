@@ -1,0 +1,14 @@
+Lui Damianci Ferreira - 10770579
+Victor A. C. Athanasio - 9784401
+
+Utilizamos:
+Anaconda Python3.7 64-bit 
+https://repo.anaconda.com/archive/Anaconda3-2020.02-Windows-x86_64.exe
+
+Efetivamente o ep utiliza apenas:
+matplotlib
+numpy
+numba
+pandas
+
+Para rodar, execute o arquivo EP2.py, mais sobre a estrutura do código no relatório

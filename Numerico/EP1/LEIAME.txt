@@ -1,0 +1,16 @@
+Código escrito em Python 3.8 (apesar disso nenhum recurso de 3.8 foi usado, portanto deve rodar com python 3.7)
+
+Bibliotecas usadas:
+
+dash
+numpy 
+pandas
+psutils
+numba
+
+Orca, guia para instalação em:
+
+https://github.com/plotly/orca
+
+O script EP1,py roda todos os testes do ep, para rodar testes individuais, baseie-se no código example.py
+
